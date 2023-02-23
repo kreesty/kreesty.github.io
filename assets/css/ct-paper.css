@@ -1108,7 +1108,7 @@ textarea.form-control {
 .popover {
   border: 0;
   border-radius: 4px;
-  background-color: #FF8F5E;
+  background-color: #5b95c4;
   color: #FFFFFF;
   font-weight: 400;
   padding: 0;
@@ -1117,14 +1117,14 @@ textarea.form-control {
   box-shadow: none; }
 
 .popover-title {
-  background-color: #FF8F5E;
+  background-color: #5b95c4;
   border-bottom: 0 none;
   font-size: 16px;
   font-weight: normal;
   line-height: 22px;
   padding: 15px 15px 8px 15px;
   margin: 0;
-  color: #B33C12;
+  color: #e2e2e2;
   text-align: center;
   border-radius: 4px 4px 0 0; }
 
@@ -1139,7 +1139,7 @@ textarea.form-control {
   margin-left: 0; }
 
 .popover.bottom .arrow:after {
-  border-bottom-color: #FF8F5E; }
+  border-bottom-color: #5b95c4; }
 
 .popover-filter {
   position: fixed;
@@ -1161,14 +1161,14 @@ textarea.form-control {
   transition-delay: 0s; }
 
 .popover.left > .arrow::after {
-  border-left-color: #FF8F5E;
+  border-left-color: #5b95c4;
   bottom: -20px; }
 
 .popover.top > .arrow::after {
-  border-top-color: #FF8F5E; }
+  border-top-color: #5b95c4; }
 
 .popover.right > .arrow::after {
-  border-right-color: #FF8F5E; }
+  border-right-color: #5b95c4; }
 
 .section {
   padding: 30px 0;
