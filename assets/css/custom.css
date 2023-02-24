@@ -166,6 +166,14 @@ body {
     transform: translate(-50%, 170%);
   }
 
+  .section-blue-img{
+    background: url(../paper_img/sitetheme_blue.png) no-repeat;
+    background-size: 400px;
+    background-repeat: repeat;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+  }
+
   #item01 {
     background: url(../paper_img/kebab-banner.png) no-repeat;
     background-size: cover;
