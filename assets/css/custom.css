@@ -53,18 +53,8 @@ body {
   
   .gamesBody {
     display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-  
-    position: relative;
-    background-image: url(./media/sitetheme2.png);
-    background-color: #1c1c1c;
-    min-height: 700px;
-  
-    box-shadow: -4px 4px 4px -4px rgba(0, 0, 0, 0.5),
-      0px 0px 18px 0px rgba(0, 0, 0, 0.8);
+    flex-flow: row wrap;
+    gap: 20px;
   }
   
   .gamesBody h1 {
@@ -78,20 +68,13 @@ body {
   }
   
   .gamesItem {
-    display: inline-block;
     z-index: 1;
-    height: 370px;
-    width: 270px;
-    background-color: #a5a5a5;
+    min-height: 370px;
+    min-width: 270px;
     border-radius: 5px;
     overflow: hidden;
-    margin-right: 9px;
-  
-    margin-left: 9px;
-    margin-top: 18px;
   
     transform: translateY(0);
-  
     transition: 0.2s;
   }
   
@@ -139,8 +122,23 @@ body {
       /* padding-top: 110px;
         padding-bottom: 110px;
         position: relative; */
-      display: flex;
-      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+
+    .gamesItem {
+      min-height: 233px;
+      min-width: 170px;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .gamesItem {
+      min-height: 178px;
+      min-width: 130px;
     }
   }
 
