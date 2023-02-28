@@ -395,5 +395,5 @@ function debounce(func, wait, immediate) {
 let aboutBg = document.getElementById("about-bg");
 window.addEventListener("scroll", function(){
     let value = this.window.scrollY;
-    aboutBg.style.transform = "translate(calc(-50% +" + ((-value) * 0.2) + "px), -50%)";
+    aboutBg.style.transform = "translate(calc(-50% + " + (-value) * 0.2 + "px), -50%)";
 })
