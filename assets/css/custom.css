@@ -117,7 +117,7 @@ body {
     align-content: center;
   }
   
-  @media screen and (max-width: 880px) {
+  @media screen and (max-width: 993px) {
     .gamesBody {
       /* padding-top: 110px;
         padding-bottom: 110px;
@@ -135,7 +135,7 @@ body {
     }
   }
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 561px) {
     .gamesItem {
       min-height: 178px;
       min-width: 130px;
@@ -165,11 +165,31 @@ body {
   }
 
   .section-blue-img{
-    background: url(../paper_img/sitetheme_blue.png) no-repeat;
-    background-size: 400px;
-    background-repeat: repeat;
-    color: #FFFFFF;
     padding-bottom: 40px;
+    overflow: hidden;
+  }
+
+  .section-blue-img .bg{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    background-image: url(../paper_img/sitetheme_blue.png);
+    background-size: 400px;
+    position: absolute;
+    height: 100%;
+    width: 500vw;
+    z-index: 0;
+  }
+
+  .section-blue-img p{
+    position: relative;
+    color: #fff;
+  }
+
+  .section-blue-img h2{
+    position: relative;
+    color: #fff;
   }
 
   #item01 {

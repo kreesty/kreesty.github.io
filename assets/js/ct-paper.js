@@ -391,3 +391,9 @@ function debounce(func, wait, immediate) {
 		if (immediate && !timeout) func.apply(context, args);
 	};
 };
+
+let aboutBg = document.getElementById("about-bg");
+window.addEventListener("scroll", function(){
+    let value = this.window.scrollY;
+    aboutBg.style.transform = "translate(calc(-50% +" + ((-value) * 0.2) + "px), -50%)";
+})
