@@ -158,6 +158,27 @@ a.fill-div-games {
   transform: translate(-50%, 170%);
 }
 
+.section-gray-img {
+  padding-bottom: 40px;
+  overflow: hidden;
+  background-image: url(../paper_img/sitetheme2.png);
+  background-size: 400px;
+  color: #ffffffce
+}
+
+.section-gray-img .bg {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  background-image: url(../paper_img/sitetheme2.png);
+  background-size: 400px;
+  position: absolute;
+  height: 100%;
+  width: 500vw;
+  z-index: 0;
+}
+
 .section-blue-img {
   padding-bottom: 40px;
   overflow: hidden;
@@ -181,9 +202,19 @@ a.fill-div-games {
   color: #fff;
 }
 
-.section-blue-img h2 {
+.section-blue-img h1, .section-blue-img h2, .section-blue-img h3 {
   position: relative;
   color: #fff;
+}
+
+.section-blue-img ul {
+  position: relative;
+  color: #fff;
+}
+
+hr {
+  border-color: #00000017;
+  border-width: 2px;
 }
 
 #item01 {
@@ -208,5 +239,15 @@ a.fill-div-games {
 
 #item05 {
   background: url(../paper_img/solomonar-banner.png) no-repeat;
+  background-size: cover;
+}
+
+#item06 {
+  background: url(../paper_img/timocomhero-banner2.png) no-repeat;
+  background-size: cover;
+}
+
+#item07 {
+  background: url(../paper_img/tohw-banner.jpg) no-repeat;
   background-size: cover;
 }
