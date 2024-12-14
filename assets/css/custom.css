@@ -9,8 +9,7 @@ body {
 
 .custom-header-bg {
   position: fixed;
-  background-image: url(../paper_img/sitetheme2.png);
-  background-size: 400px;
+  background-image: url(../paper_img/8150248.png);
 
   width: 100%;
   height: inherit;
@@ -189,8 +188,7 @@ a.fill-div-games {
   left: 50%;
   transform: translate(-50%, -50%);
   display: block;
-  background-image: url(../paper_img/sitetheme_blue.png);
-  background-size: 400px;
+  background-image: url(../paper_img/8150248.png);
   position: absolute;
   height: 100%;
   width: 500vw;

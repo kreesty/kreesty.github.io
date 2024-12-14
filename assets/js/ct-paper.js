@@ -97,7 +97,7 @@ $(document).ready(function(){
     //  Init video card actions
     gsdk.initVideoCards();
       
-    AboutScrollBackground();
+    //AboutScrollBackground();
 });
 
 // activate collapse right menu when the windows is resized 
@@ -393,13 +393,13 @@ function debounce(func, wait, immediate) {
 	};
 };
 
-let aboutBg = document.getElementById("about-bg");
-window.addEventListener("scroll", () => {
-    AboutScrollBackground();
-})
+// let aboutBg = document.getElementById("about-bg");
+// window.addEventListener("scroll", () => {
+//     AboutScrollBackground();
+// })
 
-function AboutScrollBackground()
-{
-    let value = this.window.scrollY;
-    aboutBg.style.transform = "translate(calc(-50% + " + (-value) * 0.2 + "px), -50%)";
-}
+// function AboutScrollBackground()
+// {
+//     let value = this.window.scrollY;
+//     aboutBg.style.transform = "translate(calc(-50% + " + (-value) * 0.2 + "px), -50%)";
+// }
