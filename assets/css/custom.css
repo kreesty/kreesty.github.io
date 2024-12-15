@@ -4,7 +4,7 @@ body {
 }
 
 .custom-header {
-  height: 350px;
+  min-height: 400px;
 }
 
 .custom-header-bg {
@@ -12,7 +12,7 @@ body {
   background-image: url(../paper_img/8150248.png);
 
   width: 100%;
-  height: inherit;
+  height: 100%;
   text-align: center;
   overflow: hidden;
   pointer-events: none;
@@ -107,31 +107,6 @@ body {
   align-content: center;
 }
 
-@media screen and (max-width: 993px) {
-  .gamesBody {
-    /* padding-top: 110px;
-        padding-bottom: 110px;
-        position: relative; */
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-left: 5px;
-    margin-right: 5px;
-  }
-
-  .gamesItem {
-    height: 233px;
-    width: 170px;
-  }
-}
-
-@media screen and (max-width: 561px) {
-  .gamesItem {
-    height: 178px;
-    width: 130px;
-  }
-}
-
 a.fill-div-games {
   display: block;
   height: 100%;
@@ -155,6 +130,19 @@ a.fill-div-games {
 .fill-div-games:hover p {
   opacity: 1;
   transform: translate(-50%, 170%);
+}
+
+.about-container {
+  display: flex;
+  gap: 30px;
+}
+
+#about {
+  
+}
+
+#skills {
+  min-width: 500px;
 }
 
 .section-gray-img {
@@ -250,4 +238,37 @@ hr {
 #item07 {
   background: url(../paper_img/tohw-banner.jpg) no-repeat;
   background-size: cover;
+}
+
+@media screen and (max-width: 993px) {
+  .gamesBody {
+    /* padding-top: 110px;
+        padding-bottom: 110px;
+        position: relative; */
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .gamesItem {
+    height: 233px;
+    width: 170px;
+  }
+
+  .about-container {
+    flex-wrap: wrap;
+  }
+
+  #skills {
+    min-width: auto;
+  }
+}
+
+@media screen and (max-width: 561px) {
+  .gamesItem {
+    height: 178px;
+    width: 130px;
+  }
 }
