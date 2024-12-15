@@ -189,9 +189,11 @@ a.fill-div-games {
   transform: translate(-50%, -50%);
   display: block;
   background-image: url(../paper_img/8150248.png);
+  background-size: cover;
+  background-repeat: no-repeat;
   position: absolute;
   height: 100%;
-  width: 500vw;
+  width: calc(100% + 5px);
   z-index: 0;
 }
 
