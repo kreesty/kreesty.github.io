@@ -1,0 +1,23 @@
+{
+  "name": "kreesty.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass scss:css --no-source-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kreesty/kreesty.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kreesty/kreesty.github.io/issues"
+  },
+  "homepage": "https://github.com/kreesty/kreesty.github.io#readme",
+  "devDependencies": {
+    "sass": "^1.83.0"
+  }
+}

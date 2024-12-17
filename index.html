@@ -14,7 +14,7 @@
   <link href="bootstrap3/css/bootstrap.css" rel="stylesheet" />
   <link href="assets/css/ct-paper.css" rel="stylesheet" />
   <link href="assets/css/demo.css" rel="stylesheet" />
-  <link href="assets/css/custom.css" rel="stylesheet" />
+  <link href="assets/css/style.css" rel="stylesheet" />
 
   <!--     Fonts and icons     -->
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
@@ -65,7 +65,7 @@
       </nav>
 
       <h1>Cristian Prunaru</h1>
-      <h3>Software Portfolio</h3>
+      <h3 id="subtitle">> Software Portfolio</h3>
 
     </div>
   </div>
@@ -74,48 +74,56 @@
     <div class="section">
       <div class="container tim-container">
         <div class="tim-title" id="projects">
-          <h2>Projects</h2>
+          <h2>Released Projects</h2>
         </div>
+
+        <div class="tim-title">
+          <h3>Video Games</h3>
+        </div>
+
+        <div class="gamesBody">
+          <div class="product" id="game01" data-title="Tower of Hidden Waifus" data-description="Discover desire in Tower of Hidden Waifus, a unique hidden object game. Ascend the tower, find over 600 enticing waifus, and unlock sensual encounters with animated passion.
+            Reveal secrets, master challenges, and unveil your deepest desires." data-url="https://store.steampowered.com/app/2619450/Tower_of_Hidden_Waifus/"
+            data-imgsrc="./assets/paper_img/tohw-banner.jpg" data-tags="Game Direction, Game Design, Programming, Writing, Audio Engineering"></div>
+
+          <div class="product" id="game02" data-title="A Solomoner's Quest" data-description="A short game demo inspired by Romanian mythology, created in just three days for the Tales of Us Game Jam. Dive into the mystical world of the Solomonars, ancient wizards said to
+            control weather and ride dragons." data-url="https://bidoniera.itch.io/solomonersquest" data-imgsrc="./assets/paper_img/solomonar-banner.png"
+            data-tags="Game Direction, Game Design, Programming, Writing"></div>
+
+          <div class="product" id="game03" data-title="Kebab it Up!" data-description="Kebab it Up! is a fun and challenging game where you play as Sherban, chasing a runaway kebab through the streets of Bucharest. Features challenging levels, a banger soundtrack,
+            and a level editor for creating and playing community-made levels" data-url="https://store.steampowered.com/app/745400/Kebab_it_Up/" data-imgsrc="./assets/paper_img/kebab-banner.png"
+            data-tags="Game Direction, Game Design, Programming, Audio Engineering"></div>
+
+        </div>
+
+        <hr>
 
         <div id="buttons">
           <div class="tim-title">
-            <h3>Released Software/Tools</h3>
+            <h3>Software/Tools</h3>
           </div>
 
-          <div>
-            <div class="gamesBody">
-              <div id="item06" class="gamesItem">
-                <a href="./timohero/" target="_blank"></a>
-              </div>
-              <div id="item03" class="gamesItem">
-                <a href="https://assetstore.unity.com/packages/tools/utilities/universal-serializer-save-game-data-195825" target="_blank"></a>
-              </div>
-              <div id="item04" class="gamesItem">
-                <a href="https://assetstore.unity.com/packages/tools/utilities/ini-master-229612" target="_blank"></a>
-              </div>
-            </div>
-          </div>
-          <hr>
-          <div class="tim-title">
-            <h3>Released Video Games</h3>
+          <div class="gamesBody">
+
+            <div class="product" id="software01" data-title="Timo Hero"
+              data-description="Timocom Hero enhances efficiency for Timocom users by introducing powerful shortcuts, automation features, and more. Features: Quick Shortcuts, Automated Pricing, Customizable Emails, Enhanced Safety, Intelligent Detection."
+              data-url="./timohero/" data-imgsrc="./assets/paper_img/timohero-banner3.png" data-tags="Chrome Extension, Solo Development"></div>
+
+            <div class="product" id="software02" data-title="INI Master" data-description="Fast, cross-platform data serializer to the INI format. Supports primitives & Unity types, organization with comments & sections. Boasts incredibly fast read/write speeds,
+              ensuring that your project stays performant and responsive even when working with large amounts of data."
+              data-url="https://assetstore.unity.com/packages/tools/utilities/ini-master-229612" data-imgsrc="./assets/paper_img/inimaster-banner.png"
+              data-tags="Unity Asset, Data Serialization, Solo Development"></div>
+
+            <div class="product" id="software03" data-title="Universal Serializer"
+              data-description="Offers an effortless way to store and manage data. It's powerful yet intuitive serialization and storage management tool. Comes with a file editor, AES256 encryption, automatic backups and more."
+              data-url="https://assetstore.unity.com/packages/tools/utilities/universal-serializer-save-game-data-195825" data-imgsrc="./assets/paper_img/universalserializer-banner.png"
+              data-tags="Unity Asset, Data Management, Data Serialization, Solo Development"></div>
+
           </div>
 
-          <div>
-            <div class="gamesBody">
-              <div id="item07" class="gamesItem">
-                <a href="https://store.steampowered.com/app/2619450/Tower_of_Hidden_Waifus/" target="_blank"></a>
-              </div>
-              <div id="item01" class="gamesItem">
-                <a href="https://store.steampowered.com/app/745400/Kebab_it_Up/" target="_blank"></a>
-              </div>
-              <div id="item02" class="gamesItem">
-                <a href="https://play.google.com/store/apps/details?id=com.Bidoniera.DontYouSlip" target="_blank"></a>
-              </div>
-              <div id="item05" class="gamesItem">
-                <a href="https://bidoniera.itch.io/solomonersquest" target="_blank"></a>
-              </div>
-            </div>
-          </div>
+          <!-- <div class="tim-title">
+            <h2>Under Development / Unreleased</h2>
+          </div> -->
 
         </div>
         <!-- end buttons div -->
@@ -126,17 +134,19 @@
   <div class="main">
     <div class="section section-blue-img">
       <div class="bg" id="about-bg"></div>
-      
+
       <div class="container about-container">
         <div id="about">
           <div class="tim-title" id="about-title">
             <h2>About</h2>
           </div>
           <p>
-            Hi there! I'm Cristian, a software developer with a passion for building tools, creating games, and delivering impactful digital experiences. With over 8 years of experience, I've worked on a wide range of projects—from developing engaging gameplay mechanics and AI systems to practical tools and intuitive software solutions.
+            Hi there! I'm Cristian, a software developer with a passion for building tools, creating games, and delivering impactful digital experiences. With over 8 years of experience, I've worked
+            on a wide range of projects—from developing engaging gameplay mechanics and AI systems to practical tools and intuitive software solutions.
           </p><br>
           <p>
-            I have extensive experience in Unity Engine and C#, complemented by a solid foundation in Unreal Engine and C++. On the web development side, I work with JavaScript, TypeScript, Node.js, and front-end technologies like React, Angular, HTML and CSS.
+            I have extensive experience in Unity Engine and C#, complemented by a solid foundation in Unreal Engine and C++. On the web development side, I work with JavaScript, TypeScript, Node.js,
+            and front-end technologies like React, Angular, HTML and CSS.
           </p><br>
           <p>
             When inspiration strikes, I also dive into 3D modeling and animation with Blender, creating props and environments that bring virtual worlds to life.
@@ -145,32 +155,46 @@
             Feel free to check out my portfolio to see some of my work. If you're interested in collaborating or discussing new ideas, feel free to reach out!
           </p>
         </div>
-  
+
         <div id="skills">
           <div class="tim-title" id="skills-title">
             <h2>Skills</h2>
           </div>
-  
+
           <h3>Game Development</h3>
-  
+
           <ul>
-            <li><p>Engines: Unity (C#), Unreal Engine (C++)</p></li>
-            <li><p>Specializations: Game mechanics, user interfaces, AI systems</p></li>
-            <li><p>Tools: Blender for 3D modeling and animation</p></li>
+            <li>
+              <p>Engines: Unity (C#), Unreal Engine (C++)</p>
+            </li>
+            <li>
+              <p>Specializations: Game mechanics, user interfaces, AI systems</p>
+            </li>
+            <li>
+              <p>Tools: Blender for 3D modeling and animation</p>
+            </li>
           </ul>
-  
+
           <h3>Web Development</h3>
-  
+
           <ul>
-            <li><p>Front-End: HTML, CSS, JavaScript, TypeScript, Angular, React</p></li>
-            <li><p>Back-End: Node.js, SQL, and database management</p></li>
+            <li>
+              <p>Front-End: HTML, CSS, JavaScript, TypeScript, Angular, React</p>
+            </li>
+            <li>
+              <p>Back-End: Node.js, SQL, and database management</p>
+            </li>
           </ul>
-  
+
           <h3>Software Engineering</h3>
-          
+
           <ul>
-            <li><p>Programming Languages: C#, C++, JavaScript, TypeScript</p></li>
-            <li><p>Expertise: Developing standalone software solutions</p></li>
+            <li>
+              <p>Programming Languages: C#, C++, JavaScript, TypeScript</p>
+            </li>
+            <li>
+              <p>Expertise: Developing standalone software solutions</p>
+            </li>
           </ul>
         </div>
       </div>
@@ -196,7 +220,7 @@
   <footer class="footer-demo section-dark">
     <div class="container">
       <div class="copyright">
-        
+
       </div>
     </div>
   </footer>
@@ -206,6 +230,7 @@
 <script src="assets/js/jquery-1.10.2.js" type="text/javascript"></script>
 <script src="assets/js/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
 <script src="bootstrap3/js/bootstrap.js" type="text/javascript"></script>
+<script src="assets/js/element-generator.js" type="text/javascript"></script>
 
 <!--  Plugins -->
 <!-- <script src="assets/js/ct-paper-checkbox.js"></script>
